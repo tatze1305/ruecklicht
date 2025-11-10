@@ -416,6 +416,26 @@
     [
       "5b98d005-5a31-42b7-abc9-38e6ce9df9f5",
       "ESP32"
+    ],
+    [
+      "7140a46d-e634-4d04-a935-3edb02770d68",
+      "power_supply"
+    ],
+    [
+      "09dee91a-e093-485b-bf09-2d4af5472fae",
+      "battery"
+    ],
+    [
+      "8f5105e1-dc63-457a-99c7-3c491c0ccd8f",
+      "switches"
+    ],
+    [
+      "9aa21421-067a-420f-bc32-5375cbe072e4",
+      "d-ff"
+    ],
+    [
+      "3b69bd5d-0c8b-46dd-ab45-a7d9d3eb64d4",
+      "leds"
     ]
   ],
   "text_variables": {}

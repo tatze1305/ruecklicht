@@ -1758,6 +1758,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 142.24) (xy 123.19 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "151f8129-da74-40d2-8ea8-c52625931d87")
+	)
+	(wire
+		(pts
 			(xy 114.3 68.58) (xy 123.19 68.58)
 		)
 		(stroke
@@ -1795,6 +1805,26 @@
 			(type default)
 		)
 		(uuid "1bd49293-6471-4dbb-b77f-ad3c15a4e460")
+	)
+	(wire
+		(pts
+			(xy 125.73 168.91) (xy 134.62 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b475072-558c-4b5a-8541-bf46f0fd16ed")
+	)
+	(wire
+		(pts
+			(xy 125.73 171.45) (xy 134.62 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f256535-3659-4713-a0bd-ab884550caf8")
 	)
 	(wire
 		(pts
@@ -1895,6 +1925,16 @@
 			(type default)
 		)
 		(uuid "6b4da133-d5b0-4ae4-8b4a-b24149bc7bc2")
+	)
+	(wire
+		(pts
+			(xy 125.73 166.37) (xy 134.62 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa5fc89-df85-4192-ab45-9dd8a07d95b1")
 	)
 	(wire
 		(pts
@@ -2108,6 +2148,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 139.7) (xy 123.19 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8aa23fd-7fdc-4ee1-a5e5-27f880807b39")
+	)
+	(wire
+		(pts
 			(xy 114.3 66.04) (xy 123.19 66.04)
 		)
 		(stroke
@@ -2275,6 +2325,56 @@
 			(type default)
 		)
 		(uuid "fe272e67-d79f-4bfb-89cc-252e6fe06ab5")
+	)
+	(label "EN"
+		(at 134.62 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19751cc4-03ff-4db2-908d-5d0e673f2d1d")
+	)
+	(label "RX"
+		(at 134.62 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d11a3ff-23d7-4b99-ada3-a888e3f351d5")
+	)
+	(label "TX"
+		(at 134.62 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ef82fdb-6193-4793-9107-234ab5dd1864")
+	)
+	(label "TX"
+		(at 114.3 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa5cfea3-6326-4cd2-baa1-6abe1d42c2a8")
+	)
+	(label "RX"
+		(at 114.3 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eae34204-bd99-4689-9c96-a8376d354cd7")
 	)
 	(hierarchical_label "GND"
 		(shape input)
