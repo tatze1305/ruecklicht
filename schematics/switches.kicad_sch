@@ -978,16 +978,6 @@
 		)
 		(uuid "2d51094c-9ea6-4aed-ac75-e30c3b225890")
 	)
-	(label "Q2"
-		(at 139.7 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "67d591fd-65ea-4b0c-962f-00d304ae6980")
-	)
 	(hierarchical_label "LEDs_out"
 		(shape input)
 		(at 203.2 101.6 270)
@@ -1075,6 +1065,17 @@
 			(justify left)
 		)
 		(uuid "d4f7c528-60b4-46a7-8b15-d60e0bfa89a5")
+	)
+	(hierarchical_label "Q2"
+		(shape input)
+		(at 139.7 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e979d7be-d777-465b-8f98-69b2b112d259")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -1256,7 +1257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b9a57be-309b-4a40-857d-3c984fd8a6af")
-		(property "Reference" "SW1"
+		(property "Reference" "EN_BUTTON"
 			(at 82.55 81.28 0)
 			(effects
 				(font
@@ -1308,7 +1309,7 @@
 		(instances
 			(project ""
 				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/8f5105e1-dc63-457a-99c7-3c491c0ccd8f"
-					(reference "SW1")
+					(reference "EN_BUTTON")
 					(unit 1)
 				)
 			)
@@ -1324,7 +1325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9df21388-48b4-4c57-bb96-d36c83fca75f")
-		(property "Reference" "SW2"
+		(property "Reference" "BT_EN_Button"
 			(at 82.55 93.98 0)
 			(effects
 				(font
@@ -1376,7 +1377,7 @@
 		(instances
 			(project "ruecklicht"
 				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/8f5105e1-dc63-457a-99c7-3c491c0ccd8f"
-					(reference "SW2")
+					(reference "BT_EN_Button")
 					(unit 1)
 				)
 			)

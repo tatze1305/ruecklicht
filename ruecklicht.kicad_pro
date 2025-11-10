@@ -436,6 +436,10 @@
     [
       "3b69bd5d-0c8b-46dd-ab45-a7d9d3eb64d4",
       "leds"
+    ],
+    [
+      "16eb6cb1-7164-4803-ae3c-49b41cf3100c",
+      "LS"
     ]
   ],
   "text_variables": {}
