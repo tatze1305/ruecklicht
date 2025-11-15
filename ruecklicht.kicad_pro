@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 2.15,
+          "height": 3.9,
+          "width": 3.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -645,6 +645,14 @@
     [
       "e436b79a-7463-4bf9-b0b8-21f60cebb6aa",
       "gyro"
+    ],
+    [
+      "cae253cc-0796-49a6-9448-e9507638da23",
+      "BT_EN_Button"
+    ],
+    [
+      "81ed351c-1238-46a4-b1b6-024365ae1f3e",
+      "EN_Button"
     ]
   ],
   "text_variables": {}

@@ -379,6 +379,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 101.6) (xy 63.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a02c121-1c1f-4264-91b1-b0a0600de791")
+	)
+	(wire
+		(pts
 			(xy 66.04 24.13) (xy 66.04 29.21)
 		)
 		(stroke
@@ -389,7 +399,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 41.91) (xy 199.39 39.37)
+			(xy 199.39 50.8) (xy 199.39 41.91)
 		)
 		(stroke
 			(width 0)
@@ -499,6 +509,26 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 90.17) (xy 72.39 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b2b734e-63ce-45dd-8ebc-aaefa93ec8b6")
+	)
+	(wire
+		(pts
+			(xy 63.5 82.55) (xy 72.39 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb39061-ef7f-4fb0-98ac-af427f0e74b5")
+	)
+	(wire
+		(pts
 			(xy 130.81 91.44) (xy 143.51 91.44)
 		)
 		(stroke
@@ -506,6 +536,26 @@
 			(type default)
 		)
 		(uuid "801fe1c6-65b1-4f45-ab81-c959d4aee88f")
+	)
+	(wire
+		(pts
+			(xy 63.5 95.25) (xy 72.39 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ef43ad-8500-4b4e-9cfe-df7e7813c102")
+	)
+	(wire
+		(pts
+			(xy 63.5 87.63) (xy 72.39 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96abc24e-ff5c-481e-acd2-95ee499d6b53")
 	)
 	(wire
 		(pts
@@ -649,7 +699,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 39.37) (xy 210.82 39.37)
+			(xy 199.39 41.91) (xy 210.82 41.91)
 		)
 		(stroke
 			(width 0)
@@ -666,6 +716,16 @@
 			(type default)
 		)
 		(uuid "ec2471eb-4066-403e-9bce-58da0090cead")
+	)
+	(wire
+		(pts
+			(xy 63.5 76.2) (xy 63.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6aea42-5ba5-4241-91f7-09e719ffedc1")
 	)
 	(label "D+"
 		(at 234.95 31.75 180)
@@ -717,6 +777,16 @@
 		)
 		(uuid "5ab10035-01ac-472f-9dbe-3eb422d0a05d")
 	)
+	(label "SDA"
+		(at 63.5 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b777d51-b005-4d18-8406-a7a62f7295cc")
+	)
 	(label "D+"
 		(at 208.28 69.85 0)
 		(effects
@@ -726,6 +796,16 @@
 			(justify left bottom)
 		)
 		(uuid "65eee7af-22a1-4f28-be81-643e59f68fb9")
+	)
+	(label "SCL"
+		(at 199.39 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89488696-fdee-4bee-b0a6-aaa50d2ab76e")
 	)
 	(label "LEDs"
 		(at 208.28 64.77 0)
@@ -747,6 +827,16 @@
 		)
 		(uuid "8dee6adb-d7c0-43fc-8efa-2f95274ffbf7")
 	)
+	(label "SDA"
+		(at 199.39 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8c262fc-881b-4e32-9c32-0f41cef94edc")
+	)
 	(label "BT_EN_4.5"
 		(at 130.81 91.44 0)
 		(effects
@@ -756,6 +846,16 @@
 			(justify left bottom)
 		)
 		(uuid "cf3fc669-41c0-42cf-ae38-3ee7997986dd")
+	)
+	(label "SCL"
+		(at 63.5 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d16fd9e6-e01a-4e14-aaf5-d290fc7d5a56")
 	)
 	(label "BT_EN_4.5"
 		(at 115.57 44.45 180)
@@ -845,7 +945,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 41.91 0)
+		(at 199.39 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -854,7 +954,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b350016-81ca-449e-b0fc-76126b93b0ec")
 		(property "Reference" "#PWR05"
-			(at 199.39 48.26 0)
+			(at 199.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,7 +963,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 46.99 0)
+			(at 199.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,7 +971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 41.91 0)
+			(at 199.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,7 +980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 41.91 0)
+			(at 199.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -889,7 +989,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 41.91 0)
+			(at 199.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -970,6 +1070,72 @@
 			(project "ruecklicht"
 				(path "/d9fee8f2-a86d-4098-a09f-80e037052314"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 63.5 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "405c9f42-7583-4885-b9a5-d22f17ce3f51")
+		(property "Reference" "#PWR06"
+			(at 63.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 63.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7760672-4f6b-47c1-9f77-83c2d2e8f025")
+		)
+		(instances
+			(project "ruecklicht"
+				(path "/d9fee8f2-a86d-4098-a09f-80e037052314"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1301,6 +1467,72 @@
 			(project ""
 				(path "/d9fee8f2-a86d-4098-a09f-80e037052314"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dda7a734-2e52-4cdc-986d-8d07875aea61")
+		(property "Reference" "#PWR03"
+			(at 63.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e83ed0d-412a-442e-bff1-37a137159c36")
+		)
+		(instances
+			(project "ruecklicht"
+				(path "/d9fee8f2-a86d-4098-a09f-80e037052314"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1666,7 +1898,7 @@
 	)
 	(sheet
 		(at 210.82 26.67)
-		(size 17.78 13.97)
+		(size 17.78 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1690,7 +1922,7 @@
 			)
 		)
 		(property "Sheetfile" "esp.kicad_sch"
-			(at 210.82 41.2246 0)
+			(at 210.82 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1709,7 +1941,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 210.82 39.37 180)
+			(at 210.82 41.91 180)
 			(uuid "aa2e1e4f-5a14-424c-863e-6b31dbe937ea")
 			(effects
 				(font
@@ -1901,8 +2133,8 @@
 		)
 	)
 	(sheet
-		(at 72.39 85.09)
-		(size 21.59 10.16)
+		(at 72.39 80.01)
+		(size 21.59 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1917,7 +2149,7 @@
 		)
 		(uuid "e436b79a-7463-4bf9-b0b8-21f60cebb6aa")
 		(property "Sheetname" "gyro"
-			(at 72.39 84.3784 0)
+			(at 72.39 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,12 +2158,72 @@
 			)
 		)
 		(property "Sheetfile" "schematics/gyro.kicad_sch"
-			(at 72.39 95.8346 0)
+			(at 72.39 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ADO" input
+			(at 93.98 93.98 0)
+			(uuid "e159d42a-b16c-4786-ae0a-450c9961590e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 72.39 95.25 180)
+			(uuid "a7e955ad-7c8b-40fb-80ec-4fa3d2324bc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT" input
+			(at 93.98 91.44 0)
+			(uuid "5c481da6-2ea6-49aa-9d15-53740ebbd6b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 72.39 90.17 180)
+			(uuid "a19e6960-3268-45a0-aa67-51a5adcc09f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 72.39 87.63 180)
+			(uuid "35094b23-284a-40a2-9eaa-6c1d48e73792")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 72.39 82.55 180)
+			(uuid "e0916b9a-62fa-4729-babc-4cab30c68acc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -130,23 +130,83 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 114.3 76.2)
+			(xy 71.12 63.5) (xy 63.5 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39892c7b-ba7c-46b7-90fa-ab8994ffe5df")
+		(uuid "0a337e17-c0f3-4f1e-a5a2-d8e5b4c938bf")
 	)
 	(wire
 		(pts
-			(xy 101.6 63.5) (xy 114.3 63.5)
+			(xy 106.68 88.9) (xy 114.3 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1e88045-4628-4bdc-b68e-11bb36f6851c")
+		(uuid "27596958-f87e-41de-ac4b-810e7cbbcaf0")
+	)
+	(wire
+		(pts
+			(xy 63.5 63.5) (xy 63.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3347b0db-2964-4af6-990d-0c82fb9f0269")
+	)
+	(wire
+		(pts
+			(xy 63.5 88.9) (xy 71.12 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc183f1-3027-4cb1-96fa-760483c5d9d8")
+	)
+	(wire
+		(pts
+			(xy 63.5 76.2) (xy 71.12 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4425e9f-543e-4d5a-b30f-809692a0b737")
+	)
+	(wire
+		(pts
+			(xy 106.68 63.5) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9d45b5-50a7-459a-b2af-8896ed63a0ef")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef72551a-c618-4138-beb8-04454f51c337")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ed46ae-f68f-45b7-8fa3-135af82ba740")
 	)
 	(hierarchical_label "B+"
 		(shape input)
@@ -161,27 +221,27 @@
 	)
 	(hierarchical_label "B-"
 		(shape input)
-		(at 114.3 76.2 0)
+		(at 63.5 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a9d1f261-c8ec-4244-a278-6eabe6b24dab")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 96.52 63.5 0)
+		(at 76.2 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7ecd3e34-33fe-4b4c-9ef0-01a0595e48a6")
-		(property "Reference" "B+1"
-			(at 97.155 58.42 0)
+		(uuid "75d911ba-062a-4107-8dee-866906e6ab69")
+		(property "Reference" "B3-1"
+			(at 75.565 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -189,7 +249,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 97.155 60.96 0)
+			(at 75.565 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -197,7 +257,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
-			(at 96.52 63.5 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -206,7 +266,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 63.5 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -215,7 +275,72 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 96.52 63.5 0)
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f30f710-8890-4d5a-9d64-5842668f379e")
+		)
+		(instances
+			(project "ruecklicht"
+				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/09dee91a-e093-485b-bf09-2d4af5472fae"
+					(reference "B3-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 101.6 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ecd3e34-33fe-4b4c-9ef0-01a0595e48a6")
+		(property "Reference" "B1+1"
+			(at 102.235 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 102.235 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 101.6 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -229,7 +354,7 @@
 		(instances
 			(project "ruecklicht"
 				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/09dee91a-e093-485b-bf09-2d4af5472fae"
-					(reference "B+1")
+					(reference "B1+1")
 					(unit 1)
 				)
 			)
@@ -237,7 +362,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 96.52 76.2 0)
+		(at 76.2 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -245,8 +370,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a028ebc-aaf8-48e6-894d-cb6abb59b973")
-		(property "Reference" "B-1"
-			(at 97.155 71.12 0)
+		(property "Reference" "B1-1"
+			(at 75.565 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -254,7 +379,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 97.155 73.66 0)
+			(at 75.565 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -262,7 +387,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
-			(at 96.52 76.2 0)
+			(at 76.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -271,7 +396,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 76.2 0)
+			(at 76.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280,7 +405,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 96.52 76.2 0)
+			(at 76.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -294,7 +419,202 @@
 		(instances
 			(project "ruecklicht"
 				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/09dee91a-e093-485b-bf09-2d4af5472fae"
-					(reference "B-1")
+					(reference "B1-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 76.2 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9382bdb4-9f9b-4baa-ab63-c1c82a66d900")
+		(property "Reference" "B2+1"
+			(at 75.565 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 75.565 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "000e4d9b-4add-4e55-bef3-56071008462a")
+		)
+		(instances
+			(project "ruecklicht"
+				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/09dee91a-e093-485b-bf09-2d4af5472fae"
+					(reference "B2+1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 101.6 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96c019b7-289c-4c62-8eda-ff69ac16e11e")
+		(property "Reference" "B3+1"
+			(at 102.235 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 102.235 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd381b0a-4f44-44e8-a435-b744bb8ebc6d")
+		)
+		(instances
+			(project "ruecklicht"
+				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/09dee91a-e093-485b-bf09-2d4af5472fae"
+					(reference "B3+1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 101.6 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bafd27ef-17db-4d10-b884-a52ab569ccaa")
+		(property "Reference" "B2-1"
+			(at 102.235 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 102.235 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f786e75-7f65-4503-b8a0-5874bbd8e366")
+		)
+		(instances
+			(project "ruecklicht"
+				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/09dee91a-e093-485b-bf09-2d4af5472fae"
+					(reference "B2-1")
 					(unit 1)
 				)
 			)
