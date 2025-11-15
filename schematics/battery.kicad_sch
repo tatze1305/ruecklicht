@@ -180,7 +180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ecd3e34-33fe-4b4c-9ef0-01a0595e48a6")
-		(property "Reference" "B+"
+		(property "Reference" "B+1"
 			(at 97.155 58.42 0)
 			(effects
 				(font
@@ -227,9 +227,9 @@
 			(uuid "11dbd528-7106-4169-87e1-08ba16d86475")
 		)
 		(instances
-			(project ""
+			(project "ruecklicht"
 				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/09dee91a-e093-485b-bf09-2d4af5472fae"
-					(reference "B+")
+					(reference "B+1")
 					(unit 1)
 				)
 			)
@@ -245,7 +245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a028ebc-aaf8-48e6-894d-cb6abb59b973")
-		(property "Reference" "B-"
+		(property "Reference" "B-1"
 			(at 97.155 71.12 0)
 			(effects
 				(font
@@ -294,7 +294,7 @@
 		(instances
 			(project "ruecklicht"
 				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/09dee91a-e093-485b-bf09-2d4af5472fae"
-					(reference "B-")
+					(reference "B-1")
 					(unit 1)
 				)
 			)

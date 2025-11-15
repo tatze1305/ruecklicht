@@ -1105,7 +1105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 95.25 71.12 0)
 			(effects
 				(font
@@ -1175,7 +1175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 			(at 205.74 86.36 0)
 			(effects
 				(font
@@ -1257,7 +1257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b9a57be-309b-4a40-857d-3c984fd8a6af")
-		(property "Reference" "EN_BUTTON"
+		(property "Reference" "EN_BUTTON1"
 			(at 82.55 81.28 0)
 			(effects
 				(font
@@ -1309,7 +1309,7 @@
 		(instances
 			(project ""
 				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/8f5105e1-dc63-457a-99c7-3c491c0ccd8f"
-					(reference "EN_BUTTON")
+					(reference "EN_BUTTON1")
 					(unit 1)
 				)
 			)
@@ -1325,7 +1325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9df21388-48b4-4c57-bb96-d36c83fca75f")
-		(property "Reference" "BT_EN_Button"
+		(property "Reference" "BT_EN_Button1"
 			(at 82.55 93.98 0)
 			(effects
 				(font
@@ -1377,7 +1377,7 @@
 		(instances
 			(project "ruecklicht"
 				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/8f5105e1-dc63-457a-99c7-3c491c0ccd8f"
-					(reference "BT_EN_Button")
+					(reference "BT_EN_Button1")
 					(unit 1)
 				)
 			)
@@ -1411,7 +1411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 188.722 95.25 90)
 			(effects
 				(font

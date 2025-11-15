@@ -937,7 +937,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:4310LC132KEC"
 			(at 157.48 73.66 0)
 			(effects
 				(font
@@ -1005,7 +1005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT23_MP2128_MNP"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 106.68 68.58 0)
 			(effects
 				(font
@@ -1086,7 +1086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 166.37 60.96 0)
 			(effects
 				(font
@@ -1156,7 +1156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 166.37 68.58 0)
 			(effects
 				(font
@@ -1226,7 +1226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
 			(at 172.72 68.58 0)
 			(effects
 				(font

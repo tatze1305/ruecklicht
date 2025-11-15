@@ -690,7 +690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP50P326X110-14N"
+		(property "Footprint" "footprints:SOP50P326X110-14N"
 			(at 161.29 186.36 0)
 			(effects
 				(font
