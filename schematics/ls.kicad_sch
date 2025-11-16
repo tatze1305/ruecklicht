@@ -534,7 +534,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SOIC127P600X175-14N"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 156.21 183.82 0)
 			(effects
 				(font
