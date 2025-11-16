@@ -1728,6 +1728,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 83.82) (xy 123.19 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08563f7b-2399-400b-8b72-2fca249d5424")
+	)
+	(wire
+		(pts
 			(xy 162.56 127) (xy 156.21 127)
 		)
 		(stroke
@@ -1815,6 +1825,16 @@
 			(type default)
 		)
 		(uuid "2b475072-558c-4b5a-8541-bf46f0fd16ed")
+	)
+	(wire
+		(pts
+			(xy 114.3 119.38) (xy 123.19 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365a4d86-3fa2-4395-8ed0-d20460dfb935")
 	)
 	(wire
 		(pts
@@ -1938,6 +1958,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 78.74) (xy 123.19 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7943c97b-a4d8-4eb7-aa11-91952c417048")
+	)
+	(wire
+		(pts
 			(xy 156.21 78.74) (xy 162.56 78.74)
 		)
 		(stroke
@@ -2035,6 +2065,16 @@
 			(type default)
 		)
 		(uuid "964d1e34-d02c-46a9-87e6-9468ac8aecc8")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 123.19 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9725f895-6258-438c-b202-2634392827ea")
 	)
 	(wire
 		(pts
@@ -2278,6 +2318,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 121.92) (xy 123.19 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca13cb1-b075-4c3b-85ba-806d03da1db4")
+	)
+	(wire
+		(pts
 			(xy 162.56 83.82) (xy 162.56 86.36)
 		)
 		(stroke
@@ -2387,6 +2437,28 @@
 		)
 		(uuid "128e186c-f0c2-4e64-ad82-ce3a0bfff1c8")
 	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 114.3 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "337a1063-5581-4936-af4a-809572c6bf7b")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 114.3 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b5d9bbd-515a-462e-9144-4e1b2cf515fd")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 165.1 114.3 0)
@@ -2397,6 +2469,17 @@
 			(justify left)
 		)
 		(uuid "8ac87815-e2c0-4153-9418-d4aa6ae00a60")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 114.3 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5672a48-9b70-4101-a094-f5a541a6aab1")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -2422,7 +2505,7 @@
 	)
 	(hierarchical_label "BT_EN"
 		(shape input)
-		(at 114.3 80.01 180)
+		(at 114.3 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
