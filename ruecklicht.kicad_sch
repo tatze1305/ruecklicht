@@ -2015,16 +2015,6 @@
 				(justify left top)
 			)
 		)
-		(pin "ADO" input
-			(at 93.98 93.98 0)
-			(uuid "e159d42a-b16c-4786-ae0a-450c9961590e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "GND" input
 			(at 72.39 95.25 180)
 			(uuid "a7e955ad-7c8b-40fb-80ec-4fa3d2324bc7")
@@ -2033,16 +2023,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "INT" input
-			(at 93.98 91.44 0)
-			(uuid "5c481da6-2ea6-49aa-9d15-53740ebbd6b9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "SCL" input
