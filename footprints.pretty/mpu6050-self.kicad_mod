@@ -929,42 +929,6 @@
 		(remove_unused_layers no)
 		(uuid "36e1368c-92d4-4342-b591-74b7874c5e29")
 	)
-	(pad "1" smd custom
-		(at 14.257681 -7.557681)
-		(size 1.5 1.5)
-		(layers "F.Cu" "F.Mask")
-		(options
-			(clearance outline)
-			(anchor circle)
-		)
-		(primitives
-			(gr_circle
-				(center -2.95 0)
-				(end 0 0)
-				(width 1.5)
-				(fill no)
-			)
-		)
-		(uuid "a89ae1a2-a543-437c-b529-c5d302476949")
-	)
-	(pad "1" smd custom
-		(at 14.392319 7.442319)
-		(size 1.5 1.5)
-		(layers "F.Cu" "F.Mask")
-		(options
-			(clearance outline)
-			(anchor circle)
-		)
-		(primitives
-			(gr_circle
-				(center -2.95 0)
-				(end 0 0)
-				(width 1.5)
-				(fill no)
-			)
-		)
-		(uuid "7c78a621-1842-45d8-94c4-96dcc44a8481")
-	)
 	(pad "2" thru_hole circle
 		(at -0.27 -6.51)
 		(size 1.7 1.7)
@@ -1008,6 +972,42 @@
 		(size 0.992 0.992)
 		(layers "F.Cu")
 		(uuid "90b4a49e-206b-4a2e-ac28-72db5b9c62cb")
+	)
+	(pad "2" smd custom
+		(at 14.257681 -7.557681)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center -2.95 0)
+				(end 0 0)
+				(width 1.5)
+				(fill no)
+			)
+		)
+		(uuid "a89ae1a2-a543-437c-b529-c5d302476949")
+	)
+	(pad "2" smd custom
+		(at 14.392319 7.442319)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center -2.95 0)
+				(end 0 0)
+				(width 1.5)
+				(fill no)
+			)
+		)
+		(uuid "7c78a621-1842-45d8-94c4-96dcc44a8481")
 	)
 	(pad "3" thru_hole circle
 		(at -0.27 -3.97)
