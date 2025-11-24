@@ -4,6 +4,16 @@
 	(generator_version "9.0")
 	(uuid "ba7d5233-2c55-4e18-be4e-bdaaca5bd3c7")
 	(paper "A4")
+	(title_block
+		(title "Rücklicht")
+		(date "17.11.2025")
+		(rev "1.0")
+		(company "Rücklicht 4")
+		(comment 1 "Matteo Huber, Lukas Köppl")
+		(comment 2 "Matthias Ulz, Adam Bukovjan")
+		(comment 3 "Mathias Kornschober, Christian Hanschitz")
+		(comment 4 "Gregor Gierlinger, Julian Gradwohl")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
@@ -130,7 +140,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 63.5) (xy 63.5 63.5)
+			(xy 130.81 80.01) (xy 123.19 80.01)
 		)
 		(stroke
 			(width 0)
@@ -140,7 +150,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 88.9) (xy 114.3 88.9)
+			(xy 166.37 105.41) (xy 173.99 105.41)
 		)
 		(stroke
 			(width 0)
@@ -150,7 +160,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 63.5) (xy 63.5 76.2)
+			(xy 123.19 80.01) (xy 123.19 92.71)
 		)
 		(stroke
 			(width 0)
@@ -160,7 +170,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 88.9) (xy 71.12 88.9)
+			(xy 123.19 105.41) (xy 130.81 105.41)
 		)
 		(stroke
 			(width 0)
@@ -170,7 +180,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 76.2) (xy 71.12 76.2)
+			(xy 123.19 92.71) (xy 130.81 92.71)
 		)
 		(stroke
 			(width 0)
@@ -180,7 +190,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 63.5) (xy 114.3 63.5)
+			(xy 166.37 80.01) (xy 173.99 80.01)
 		)
 		(stroke
 			(width 0)
@@ -190,7 +200,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 76.2) (xy 114.3 76.2)
+			(xy 166.37 92.71) (xy 173.99 92.71)
 		)
 		(stroke
 			(width 0)
@@ -200,7 +210,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 76.2) (xy 114.3 88.9)
+			(xy 173.99 92.71) (xy 173.99 105.41)
 		)
 		(stroke
 			(width 0)
@@ -210,7 +220,7 @@
 	)
 	(hierarchical_label "B+"
 		(shape input)
-		(at 114.3 63.5 0)
+		(at 173.99 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -221,7 +231,7 @@
 	)
 	(hierarchical_label "B-"
 		(shape input)
-		(at 63.5 88.9 180)
+		(at 123.19 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -232,7 +242,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 76.2 88.9 180)
+		(at 135.89 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -241,7 +251,7 @@
 		(fields_autoplaced yes)
 		(uuid "75d911ba-062a-4107-8dee-866906e6ab69")
 		(property "Reference" "B3-1"
-			(at 75.565 83.82 0)
+			(at 135.255 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -249,7 +259,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 75.565 86.36 0)
+			(at 135.255 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -257,7 +267,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
-			(at 76.2 88.9 0)
+			(at 135.89 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -266,7 +276,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 88.9 0)
+			(at 135.89 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -275,7 +285,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 76.2 88.9 0)
+			(at 135.89 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -297,7 +307,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 101.6 63.5 0)
+		(at 161.29 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -306,7 +316,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ecd3e34-33fe-4b4c-9ef0-01a0595e48a6")
 		(property "Reference" "B1+1"
-			(at 102.235 58.42 0)
+			(at 161.925 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -314,7 +324,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 102.235 60.96 0)
+			(at 161.925 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -322,7 +332,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
-			(at 101.6 63.5 0)
+			(at 161.29 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -331,7 +341,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 63.5 0)
+			(at 161.29 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -340,7 +350,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 101.6 63.5 0)
+			(at 161.29 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -362,7 +372,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 76.2 63.5 180)
+		(at 135.89 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -371,7 +381,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a028ebc-aaf8-48e6-894d-cb6abb59b973")
 		(property "Reference" "B1-1"
-			(at 75.565 58.42 0)
+			(at 135.255 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -379,7 +389,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 75.565 60.96 0)
+			(at 135.255 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -387,7 +397,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
-			(at 76.2 63.5 0)
+			(at 135.89 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -396,7 +406,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 63.5 0)
+			(at 135.89 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -405,7 +415,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 76.2 63.5 0)
+			(at 135.89 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -427,7 +437,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 76.2 76.2 180)
+		(at 135.89 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -436,7 +446,7 @@
 		(fields_autoplaced yes)
 		(uuid "9382bdb4-9f9b-4baa-ab63-c1c82a66d900")
 		(property "Reference" "B2+1"
-			(at 75.565 71.12 0)
+			(at 135.255 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -444,7 +454,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 75.565 73.66 0)
+			(at 135.255 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -452,7 +462,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
-			(at 76.2 76.2 0)
+			(at 135.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -461,7 +471,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 76.2 0)
+			(at 135.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -470,7 +480,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 76.2 76.2 0)
+			(at 135.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -492,7 +502,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 101.6 88.9 0)
+		(at 161.29 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -501,7 +511,7 @@
 		(fields_autoplaced yes)
 		(uuid "96c019b7-289c-4c62-8eda-ff69ac16e11e")
 		(property "Reference" "B3+1"
-			(at 102.235 83.82 0)
+			(at 161.925 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -509,7 +519,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 102.235 86.36 0)
+			(at 161.925 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -517,7 +527,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
-			(at 101.6 88.9 0)
+			(at 161.29 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,7 +536,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 88.9 0)
+			(at 161.29 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -535,7 +545,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 101.6 88.9 0)
+			(at 161.29 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -557,7 +567,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 101.6 76.2 0)
+		(at 161.29 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -566,7 +576,7 @@
 		(fields_autoplaced yes)
 		(uuid "bafd27ef-17db-4d10-b884-a52ab569ccaa")
 		(property "Reference" "B2-1"
-			(at 102.235 71.12 0)
+			(at 161.925 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -574,7 +584,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 102.235 73.66 0)
+			(at 161.925 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -582,7 +592,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
-			(at 101.6 76.2 0)
+			(at 161.29 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -591,7 +601,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 76.2 0)
+			(at 161.29 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -600,7 +610,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 101.6 76.2 0)
+			(at 161.29 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)

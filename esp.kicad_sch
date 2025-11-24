@@ -4,6 +4,16 @@
 	(generator_version "9.0")
 	(uuid "92048a88-41ee-45a1-997e-22f63f47c534")
 	(paper "A4")
+	(title_block
+		(title "Rücklicht")
+		(date "17.11.2025")
+		(rev "1.0")
+		(company "Rücklicht 4")
+		(comment 1 "Matteo Huber, Lukas Köppl")
+		(comment 2 "Matthias Ulz, Adam Bukovjan")
+		(comment 3 "Mathias Kornschober, Christian Hanschitz")
+		(comment 4 "Gregor Gierlinger, Julian Gradwohl")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
@@ -281,6 +291,146 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1591,6 +1741,12 @@
 		(uuid "72fc24a2-8095-42c7-a61f-cf359cfec595")
 	)
 	(junction
+		(at 93.98 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "767f4a4e-c4ff-4573-a0a8-f660f907ebf8")
+	)
+	(junction
 		(at 162.56 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1615,6 +1771,12 @@
 		(uuid "a4db812f-fd65-445a-a382-fc249fc800c1")
 	)
 	(junction
+		(at 91.44 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a82cbdf3-b32d-4c1f-9626-7b768b409a72")
+	)
+	(junction
 		(at 162.56 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1625,6 +1787,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb4b6e34-5b65-448a-a98d-f45e9e6f7a17")
+	)
+	(junction
+		(at 88.9 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdc78d69-7c71-4db9-816a-1e250a6a1e90")
 	)
 	(junction
 		(at 162.56 132.08)
@@ -1818,6 +1986,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 81.28) (xy 91.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2234dd43-6fb5-4aba-818d-9504ca8f249b")
+	)
+	(wire
+		(pts
 			(xy 114.3 119.38) (xy 123.19 119.38)
 		)
 		(stroke
@@ -1825,6 +2003,16 @@
 			(type default)
 		)
 		(uuid "365a4d86-3fa2-4395-8ed0-d20460dfb935")
+	)
+	(wire
+		(pts
+			(xy 93.98 71.12) (xy 93.98 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0d74d3-b207-45d3-b940-82ac573f2545")
 	)
 	(wire
 		(pts
@@ -1888,6 +2076,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 71.12) (xy 88.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a093028-0a36-4886-ad2b-296f95f684c4")
+	)
+	(wire
+		(pts
 			(xy 162.56 137.16) (xy 156.21 137.16)
 		)
 		(stroke
@@ -1905,6 +2103,16 @@
 			(type default)
 		)
 		(uuid "5b306ace-3982-42c3-bb4b-dda136c99e13")
+	)
+	(wire
+		(pts
+			(xy 91.44 81.28) (xy 93.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f8344a-6d0d-4461-92dd-c149d19f7473")
 	)
 	(wire
 		(pts
@@ -1975,6 +2183,16 @@
 			(type default)
 		)
 		(uuid "84da7e0c-243e-4c64-be52-cdbe1fda89ce")
+	)
+	(wire
+		(pts
+			(xy 88.9 78.74) (xy 88.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87923776-4128-4c57-b5c9-d5157d2fbcc3")
 	)
 	(wire
 		(pts
@@ -2098,6 +2316,26 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 71.12) (xy 123.19 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1461c99-a5d9-48f9-b852-0b183f70dc92")
+	)
+	(wire
+		(pts
+			(xy 91.44 81.28) (xy 91.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a77aa2-92c4-464d-9386-f72509c034ae")
+	)
+	(wire
+		(pts
 			(xy 162.56 114.3) (xy 165.1 114.3)
 		)
 		(stroke
@@ -2198,6 +2436,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 71.12) (xy 93.98 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2f50cb-7d33-4c70-9bdd-12da3bec92d1")
+	)
+	(wire
+		(pts
 			(xy 114.3 66.04) (xy 123.19 66.04)
 		)
 		(stroke
@@ -2278,6 +2526,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 81.28) (xy 93.98 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4480848-4e84-443b-904c-3dc047e987c3")
+	)
+	(wire
+		(pts
 			(xy 162.56 109.22) (xy 162.56 111.76)
 		)
 		(stroke
@@ -2288,7 +2546,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 123.19 71.12)
+			(xy 78.74 71.12) (xy 88.9 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2514,7 +2772,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 114.3 71.12 180)
+		(at 78.74 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2544,6 +2802,17 @@
 			(justify right)
 		)
 		(uuid "c9e53ef2-5d7e-442d-a40e-1c5fa97a03c7")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 91.44 83.82 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbba5c00-6e7b-412d-bb32-1d3d85505ef5")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2876,6 +3145,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 88.9 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e6fcf4f-b528-4094-8b42-4256f7374201")
+		(property "Reference" "C6"
+			(at 82.042 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10µF"
+			(at 82.042 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f993614d-de38-4fad-add9-660580818794")
+		)
+		(pin "1"
+			(uuid "f4124b46-c29c-4392-98bd-9924bb05068b")
+		)
+		(instances
+			(project "ruecklicht"
+				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/5b98d005-5a31-42b7-abc9-38e6ce9df9f5"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
 		(at 120.65 171.45 0)
 		(unit 1)
@@ -2947,6 +3285,76 @@
 			(project ""
 				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/5b98d005-5a31-42b7-abc9-38e6ce9df9f5"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 93.98 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df0ad6c8-4674-4d35-81dd-a2901adb1261")
+		(property "Reference" "C5"
+			(at 96.52 74.9362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 96.52 77.4762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "518dfda7-4eb1-4685-9ec1-163b380171b6")
+		)
+		(pin "1"
+			(uuid "1eab2b75-b445-4b71-a4b5-85c0dfd453bd")
+		)
+		(instances
+			(project "ruecklicht"
+				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/5b98d005-5a31-42b7-abc9-38e6ce9df9f5"
+					(reference "C5")
 					(unit 1)
 				)
 			)

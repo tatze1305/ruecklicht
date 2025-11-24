@@ -4,6 +4,16 @@
 	(generator_version "9.0")
 	(uuid "147eb6fa-0d2b-4c0a-85ab-0884a436f25f")
 	(paper "A4")
+	(title_block
+		(title "Rücklicht")
+		(date "17.11.2025")
+		(rev "1.0")
+		(company "Rücklicht 4")
+		(comment 1 "Matteo Huber, Lukas Köppl")
+		(comment 2 "Matthias Ulz, Adam Bukovjan")
+		(comment 3 "Mathias Kornschober, Christian Hanschitz")
+		(comment 4 "Gregor Gierlinger, Julian Gradwohl")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -1013,7 +1023,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 97.79 72.3962 0)
 			(effects
 				(font
@@ -1183,7 +1193,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 193.04 96.5199 0)
 			(effects
 				(font

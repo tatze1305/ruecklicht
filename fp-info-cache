@@ -1,4 +1,4 @@
-26788795121733125
+26792321903711735
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106414,6 +106414,13 @@ Common Mode Noise Filter (4-Pin)
 4
 4
 footprints
+logo
+
+
+0
+0
+0
+footprints
 mosfet
 
 
@@ -106427,3 +106434,10 @@ mpu6050-self
 0
 24
 8
+footprints
+punti
+
+
+0
+0
+0

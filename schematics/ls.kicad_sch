@@ -4,7 +4,157 @@
 	(generator_version "9.0")
 	(uuid "388eb8ed-a3b6-47e8-a1d3-1c01c82e02ff")
 	(paper "A4")
+	(title_block
+		(title "Rücklicht")
+		(date "17.11.2025")
+		(rev "1.0")
+		(company "Rücklicht 4")
+		(comment 1 "Matteo Huber, Lukas Köppl")
+		(comment 2 "Matthias Ulz, Adam Bukovjan")
+		(comment 3 "Mathias Kornschober, Christian Hanschitz")
+		(comment 4 "Gregor Gierlinger, Julian Gradwohl")
+	)
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "symbols:TXS0104EDG4"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -374,6 +524,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 129.54 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "346a9177-b958-448c-8c61-fc1fd35c8806")
+	)
+	(junction
+		(at 162.56 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61dba956-5019-4824-9f61-5103dd129142")
+	)
 	(no_connect
 		(at 132.08 101.6)
 		(uuid "13d67b48-e6b1-4828-bf51-1179c7ca99b8")
@@ -391,6 +553,36 @@
 			(type default)
 		)
 		(uuid "00d9b06e-fbd7-4615-913d-c298892de74c")
+	)
+	(wire
+		(pts
+			(xy 162.56 88.9) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3646d328-9617-4543-9574-90e79fbe1232")
+	)
+	(wire
+		(pts
+			(xy 162.56 85.09) (xy 162.56 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c4be59-6f98-4684-9544-97082549bb6f")
+	)
+	(wire
+		(pts
+			(xy 129.54 76.2) (xy 129.54 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752ba675-10c0-4ac6-b57e-d2685c4b4fa3")
 	)
 	(wire
 		(pts
@@ -414,13 +606,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 88.9) (xy 165.1 88.9)
+			(xy 160.02 88.9) (xy 162.56 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9c6c2f8f-10db-4d15-b65c-9947af5d8065")
+	)
+	(wire
+		(pts
+			(xy 162.56 76.2) (xy 162.56 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d13071b-144b-4adb-860b-27028667aa1b")
 	)
 	(wire
 		(pts
@@ -434,13 +636,55 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 132.08 88.9)
+			(xy 129.54 88.9) (xy 132.08 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba1c6266-5763-430a-a27a-fbe97ad5852f")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 129.54 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e1d9b42e-5006-463c-b846-ba2e1f4cddbb")
+	)
+	(wire
+		(pts
+			(xy 129.54 85.09) (xy 129.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39f0047-800e-476a-bd2b-7121cb43e3c0")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 162.56 76.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06587eb8-8e5f-431d-bb10-e3146745c825")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 129.54 76.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12172ad6-ae7c-4744-903b-1e6b3770cb7f")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -659,6 +903,146 @@
 			(project ""
 				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/16eb6cb1-7164-4803-ae3c-49b41cf3100c"
 					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 162.56 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cade24d7-f2b7-4f58-8ae7-5bc1e692c892")
+		(property "Reference" "C8"
+			(at 165.1 81.2862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 165.1 83.8262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96ab6e0a-0a61-454a-be2a-4d072d85bb10")
+		)
+		(pin "1"
+			(uuid "ed733f63-d842-47ff-8a43-d288581fd02e")
+		)
+		(instances
+			(project "ruecklicht"
+				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/16eb6cb1-7164-4803-ae3c-49b41cf3100c"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 129.54 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfa89fb5-c8d4-4849-a031-5b30971b1fc5")
+		(property "Reference" "C7"
+			(at 132.08 81.2862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 132.08 83.8262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 129.54 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 129.54 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4833371f-3dc7-4a97-b722-93743724518f")
+		)
+		(pin "1"
+			(uuid "065edbca-3d1b-41ca-8c5d-73dcc46af4bb")
+		)
+		(instances
+			(project "ruecklicht"
+				(path "/d9fee8f2-a86d-4098-a09f-80e037052314/16eb6cb1-7164-4803-ae3c-49b41cf3100c"
+					(reference "C7")
 					(unit 1)
 				)
 			)
